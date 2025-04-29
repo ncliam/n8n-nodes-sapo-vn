@@ -36,7 +36,8 @@
       "./credentials/SapoApi.credentials.ts"
     ],
     "nodes": [
-      "./nodes/Sapo/Sapo.node.ts"
+      "./nodes/Sapo/Sapo.node.ts",
+      "./nodes/Sapo/SapoTrigger.node.ts"
     ]
   },
   "devDependencies": {
