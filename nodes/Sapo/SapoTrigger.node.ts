@@ -16,7 +16,7 @@ export class SapoTrigger implements INodeType {
     defaults: {
       name: 'Sapo Trigger',
     },
-    inputs: [],
+    inputs: ["main"],
     outputs: ['main'],
     credentials: [
       {

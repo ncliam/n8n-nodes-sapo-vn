@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-sapo-vn",
   "version": "0.1.0",
-  "description": "",
+  "description": "SAPO integration node for n8n",
   "keywords": [
     "n8n-community-node-package"
   ],
@@ -11,13 +11,19 @@
     "name": "LiemNC",
     "email": "liemnc@cloudenterprise.vn"
   },
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ncliam/n8n-nodes-sapo-vn.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=18.10",
     "pnpm": ">=9.1"
   },
   "packageManager": "pnpm@9.1.4",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "tsc && gulp build:icons",
